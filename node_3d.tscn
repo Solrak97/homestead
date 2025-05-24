@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwd2r4yu00ctg"]
+
+[ext_resource type="PackedScene" uid="uid://bu0sgxb6v0800" path="res://Entities/Villager/Villager.tscn" id="1_a202f"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Villager" parent="." instance=ExtResource("1_a202f")]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.72629, 0.5, 0)

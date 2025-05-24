@@ -1,0 +1,12 @@
+[gd_scene load_steps=4 format=3 uid="uid://bu0sgxb6v0800"]
+
+[ext_resource type="Script" uid="uid://bsvy5yghll0n8" path="res://Entities/Villager/Villager.cs" id="1_8ixn2"]
+[ext_resource type="PackedScene" uid="uid://c1gypmofx6063" path="res://Entities/Villager/Parts/Hat.tscn" id="3_7yvll"]
+[ext_resource type="PackedScene" uid="uid://dihumctt76o10" path="res://3D Art/BlenderAssets/Villager.glb" id="3_68prw"]
+
+[node name="Villager" type="Node3D"]
+script = ExtResource("1_8ixn2")
+
+[node name="Villager" parent="." instance=ExtResource("3_68prw")]
+
+[node name="Hat" parent="." instance=ExtResource("3_7yvll")]
